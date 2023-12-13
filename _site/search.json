@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AKT",
+    "section": "",
+    "text": "Abhinay Kumar Tuniki is at the University of North Texas to get his Master of Science in Advanced Data Analytics. He went to JNTU-H University and got his Bachelor of Science in Computer Science. In the past , I have worked as Workday Analyst.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 13, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "Blog.html",
+    "href": "Blog.html",
+    "title": "AKT",
+    "section": "",
+    "text": "Adding the Data: First, we add the information to our R environment. We will use the read.csv method to get the housing data from a CSV file for this study.\nUnderstanding the Data: Let’s use methods like str() and summary() to take a quick look at the dataset’s structure and some of its most important numbers.\nVisualization is a great way to see how trends in data work. Let’s make a graph to see how house prices are spread out.\nA association matrix and a grid can help us understand how different factors affect house prices and how they are related to each other.\nBased on our EDA, we may decide to add new features or change current ones so that we can better see how the data is related.\nAn important part of any data science job is exploratory data analysis. By carefully looking at things and picturing them, we gain insights that help us make choices about modeling in the future. This blog post showed how powerful R is for EDA by showing how it can be used to find trends in a real-world dataset. Remember that EDA is an ongoing process, and the ideas we’ve talked about here can help with future modeling and analysis projects."
+  },
+  {
+    "objectID": "Blog1.html",
+    "href": "Blog1.html",
+    "title": "AKT",
+    "section": "",
+    "text": "Adding the Data: First, we add the information to our R environment. We will use the read.csv method to get the housing data from a CSV file for this study.\nkgg housing_data &lt;- read.csv(\"housing_data.csv\")}\nUnderstanding the Data: Let’s use methods like str() and summary() to take a quick look at the dataset’s structure and some of its most important numbers.\n\nVisualization is a great way to see how trends in data work. Let’s make a graph to see how house prices are spread out.\nkgg hist(housing_data$price, main = \"Distribution of House Prices\", xlab = \"Price\")}\nA association matrix and a grid can help us understand how different factors affect house prices and how they are related to each other.\nkgg cor_matrix &lt;- cor(housing_data[, c(\"price\", \"area\", \"bedrooms\", \"bathrooms\", \"garage\")])   heatmap(cor_matrix, annot = TRUE)}\nBased on our EDA, we may decide to add new features or change current ones so that we can better see how the data is related.\n\nAn important part of any data science job is exploratory data analysis. By carefully looking at things and picturing them, we gain insights that help us make choices about modeling in the future. This blog post showed how powerful R is for EDA by showing how it can be used to find trends in a real-world dataset. Remember that EDA is an ongoing process, and the ideas we’ve talked about here can help with future modeling and analysis projects."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]

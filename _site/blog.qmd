@@ -1,0 +1,11 @@
+Adding the Data: First, we add the information to our R environment. We will use the read.csv method to get the housing data from a CSV file for this study.
+
+Understanding the Data: Let's use methods like str() and summary() to take a quick look at the dataset's structure and some of its most important numbers.
+
+Visualization is a great way to see how trends in data work. Let's make a graph to see how house prices are spread out.
+
+A association matrix and a grid can help us understand how different factors affect house prices and how they are related to each other.
+
+Based on our EDA, we may decide to add new features or change current ones so that we can better see how the data is related.
+
+An important part of any data science job is exploratory data analysis. By carefully looking at things and picturing them, we gain insights that help us make choices about modeling in the future. This blog post showed how powerful R is for EDA by showing how it can be used to find trends in a real-world dataset. Remember that EDA is an ongoing process, and the ideas we've talked about here can help with future modeling and analysis projects.

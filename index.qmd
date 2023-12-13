@@ -1,0 +1,16 @@
+---
+title: "AKT"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+![](images/WhatsApp Image 2023-12-05 at 11.05.21 PM.jpeg){fig-align="center"}
+
+Abhinay Kumar Tuniki is at the University of North Texas to get his Master of Science in Advanced Data Analytics. He went to JNTU-H University and got his Bachelor of Science in Computer Science. In the past , I have worked as Workday Analyst.
